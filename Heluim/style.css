@@ -13,7 +13,7 @@ p {
   font-size: 0.8rem;
 }
 body {
-  min-height: 100vh;
+  height: 100vh;
   background: rgb(29, 29, 29);
   color: rgb(250, 250, 250);
 }
