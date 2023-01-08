@@ -1,0 +1,35 @@
+.section-contain {
+    margin: 0 auto;
+    height: 100%;
+    padding: 40px;
+    border: 1px solid rgb(204, 204, 203);
+    .container {
+        min-height: 100%;
+        padding-top: 50px;
+        > * {
+            margin: 25px 0;
+        }
+        max-width: 80%;
+        margin: 0 auto;
+        display: block;
+        justify-content: center;
+        align-items: center;
+        img {
+            width: 100%;
+        }
+        p {
+            line-height: 20px;
+            font-weight: 100;
+            font-size: 0.8rem;
+            max-width: 100%;
+            letter-spacing: 1px ;
+            line-height: 30px;
+            text-align: left;
+        }
+        h3 {
+            letter-spacing: 2px;
+            text-transform: uppercase;
+        }
+    }
+}
+
