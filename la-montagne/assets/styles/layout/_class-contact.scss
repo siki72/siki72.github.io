@@ -1,0 +1,43 @@
+.adresse {
+    
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 25% 25% 25% 25%;
+    & div {
+        display: grid;
+        border: 1px solid rgb(215, 215, 215);
+        grid-template-columns: 27% 73%;
+        align-items: center;
+        h3 {
+            text-transform: uppercase;
+            text-transform: uppercase;
+            letter-spacing: 2px;
+            color: rgba(82, 79, 79, 0.882);
+            font-size: 0.8rem;
+        }
+        p {
+            font-size: 0.8rem;
+            font-weight: 100;
+            color: rgb(192, 191, 191);
+
+        }
+        .social-i{
+            display: flex;
+            justify-content: space-around;
+            max-width: 80%;
+            transition: 0.7;
+            .fa-brands{
+                transition: 0.7s;
+                color: rgb(4, 4, 4);
+                &:hover {
+                    transform: scale(1.2);
+                }
+            }
+        }
+
+
+    }
+
+
+    
+}
